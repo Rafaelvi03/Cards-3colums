@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+main {
+    border: solid;
+    width: 100vw;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.orange {
+
+    margin: 0 2rem;
+    padding: 2rem;
+    border-radius: 12px 12px 0px 0px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+h1 {
+    font-family: 'Big Shoulders Display';
+    font-size: 40px;
+    margin-top: 1.5rem;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+button {
+    margin-top: 1.5rem;
+    margin-left: .7rem;
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    color: hsl(31, 77%, 52%);
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.cinObscuro {
+    margin: 0 2rem;
+    padding: 2rem;
+    background-color: hsl(184, 100%, 22%);
+    border: none;
+}
+
+.cin {
+    color: hsl(184, 100%, 22%);
+
+}
+
+svg {
+    width: 64px;
+    height: 40px;
+}
+
+.cinClaro {
+    margin: -.1rem 2rem;
+    padding: 2rem;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 0px 12px 12px;
+    border: none;
+}
+
+.cinC {
+    background-color: hsl(179, 100%, 13%);
+    ;
+}
+
+@media screen and (min-width:376px) and (max-width:1440px) {
+
+    main {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 50vh;
+        margin-top: 15%;
+    }
+
+    .orange {
+        width: 20%;
+        margin: 0;
+        padding: 2rem;
+        border-radius: 12px 0px 0px 12px;
+        background-color: hsl(31, 77%, 52%);
+    }
+
+    .cinObscuro {
+        width: 20%;
+        margin-left: 0px;
+        padding: 2rem;
+        background-color: hsl(184, 100%, 22%);
+        border: none;
+    }
+
+    .cinClaro {
+        width: 20%;
+        margin-left: -2rem;
+        padding: 2rem;
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0px 12px 12px 0px;
+        border: none;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    button {
+        margin-top: 3rem;
+    }
+}
